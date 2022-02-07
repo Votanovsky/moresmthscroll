@@ -2,9 +2,9 @@ const html = document.documentElement;
 const canvas = document.getElementById("scene");
 const context = canvas.getContext("2d");
 
-const frameCount = 148;
+const frameCount = 133;
 const currentFrame = index => (
-  `./frames/compose mission 1920 full_${index.toString().padStart(3, '0')}.jpg`
+  `./frames/compose mission-2 pc_${index.toString().padStart(3, '0')}.jpg`
 )
 
 const preloadImages = () => {
